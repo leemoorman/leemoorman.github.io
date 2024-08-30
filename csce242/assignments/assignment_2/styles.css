@@ -1,0 +1,39 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    background: white;
+    padding: 30px;
+    margin: 30px, auto;
+    width: 70%;
+}
+
+#main-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+    text-decoration: underline;
+}
+p{
+    color: grey;
+}
+td{
+    color: black;
+}
+table{
+    padding: 5px;
+    background: gray;
+}
+.top-row{
+    color: orange;
+}
+.button{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}

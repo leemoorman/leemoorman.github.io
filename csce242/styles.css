@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #301934;
+}
+div{
+    background: #8458B3;
+    padding: 30px;
+    margin: 30px, auto;
+    width: 70%;
+}
+
+#name{
+    color: black;
+}
+h1{
+    color: #a0d2eb;
+}
+h2{
+    color: #d0bdf4;
+}
+p{
+    color: #e5eaf5;
+}
+a{
+    text-decoration: none;
+}
