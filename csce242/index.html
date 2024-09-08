@@ -5,18 +5,54 @@
         <title>CSCE 242 MAIN PAGE</title>
     </head>
     <body>
-        <div>
-            <h1>CSCE 242: Web Applications</h1>
             <h1 id="name">Guy (Lee) Moorman</h1>
-            <p>
-                Class Description: Learning web technologies to support client-server computing and
-                implementation of client-server applications.
-            </p>
-            <h2>Assignments</h2>
-            <ul>
-                <li><a href="assignments/assignment_1/index.html">Assignment 1</a></li>
-                <li><a href="assignments/assignment_2/index.html">Assignment 2</a></li>
-            </ul>
-        </div>
+            <header id="main-header">
+                <h1>CSCE 242: Web Applications</h1>
+                <p>
+                    Class Description: Learning web technologies to support client-server computing and
+                    implementation of client-server applications.
+                </p>
+            </header>
+            <div id="assignments">
+                <h2 class="assignment-header">Assignments</h2>
+                    <div class="columns" id="species">
+                        <section class="one">
+                            <h3><a href="assignments/assignment_1/index.html">Assignment 1 - Basic HTML</a></h3>
+                            <img src="images/assignment_1.jpg" alt="assignment 1 page">
+                            <p>Basic introduction to HTML including implementation of tables, images and hyperlinks. Very basic levels of formatting and stylesheets.</p>
+                        </section>
+                        <section class="one">
+                            <h3><a href="assignments/assignment_2/index.html">Assignment 2 - Basic CSS</a></h3>
+                            <img src="images/assignment_2.jpg" alt="assignment 2 page">
+                            <p>Slightly more advanced than Assignment 1 and introduces topics such as padding, navigation, background images, and more.</p>
+                        </section>
+                        <section class="one">
+                            <h3><a href="assignments/assignment_3/index.html">Assignment 3 - Page Layout</a></h3>
+                            <img src="images/assignment_3.jpg" alt="assignment 3 page">
+                            <p>Utilized flex and columns to help the website maintain a good look even while windowed. Also implemented footers and an overall more clean look.</p>
+                        </section>
+                        <section class="one">
+                            <h3><a href="assignments/assignment_4/index.html">Assignment 4 - Recreate CSS Page</a></h3>
+                            <img src="images/assignment_4.jpg" alt="assignment 4 page">
+                            <p>Created a template for the UofSC website. Utilized a lot of the skills and features I learned up until this point.</p>
+                        </section>
+                    </div>
+                <h2 class="assignment-header">Project</h2>
+                    <div class="columns" id="species">
+                        <section class="one">
+                            <h3><a href="#">Project Part 0: Topic</a></h3>
+                            <img src="https://place-hold.it/25" alt="wireframe of my website">
+                            <p>The wireframe of my website</p>
+                        </section>
+                        <section class="one">
+                            <h3><a href="wireframe/index.html">Project Part 1: Wireframe</a></h3>
+                            <img src="https://place-hold.it/25" alt="wireframe of my website">
+                            <p>The wireframe of my website</p>
+                        </section>
+                    </div>                       
+            </div>
+        <footer>
+            <p>&copy; Lee Moorman 2024</p>
+        </footer>
     </body>
 </html>

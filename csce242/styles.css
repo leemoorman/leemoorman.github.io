@@ -1,26 +1,74 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #301934;
-}
-div{
-    background: #8458B3;
-    padding: 30px;
-    margin: 30px, auto;
-    width: 70%;
+    background: black;
 }
 
-#name{
+#species section{
+    background: #73000A;
+    padding: 5px;
+    margin: 5px;
+}
+
+#main-header{
+    text-align: center;
+    background: #73000A;
+    border-radius: 10px;
+}
+
+#assignments{
+    background: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.assignment-header{
     color: black;
 }
+
+footer{
+    text-align: center;
+}
+
 h1{
-    color: #a0d2eb;
+    color: white;
 }
 h2{
-    color: #d0bdf4;
+    color: white;
+    text-align: center;
 }
 p{
-    color: #e5eaf5;
+    color: white;
 }
 a{
     text-decoration: none;
+    color: white;
+}
+
+.columns img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width:600px){
+    .columns {
+        display: flex;
+    }
+
+    .one{
+        flex: 1;
+        text-align: center;
+    }
+
+    .two{
+        flex: 2;
+    }
+
+    .three{
+        flex: 3;
+    }
+
+    .four{
+        flex: 4;
+    }
 }
