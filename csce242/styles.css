@@ -65,16 +65,4 @@ a{
         flex: 1;
         text-align: center;
     }
-
-    .two{
-        flex: 2;
-    }
-
-    .three{
-        flex: 3;
-    }
-
-    .four{
-        flex: 4;
-    }
 }
