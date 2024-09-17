@@ -56,13 +56,18 @@ a{
     margin-bottom: 1rem;
 }
 
+
 @media only screen and (min-width:600px){
     .columns {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .one{
-        flex: 1;
+        flex: 1 0 25%;
+        margin: 5px;
+        height: auto;
         text-align: center;
     }
+
 }

@@ -14,8 +14,8 @@ randomImg.onclick = () =>{
     location.reload();
 }
 
-let slider = document.getElementById("myRange");
-slider.oninput = () =>{
-    
-}
-
+let position = document.getElementById("myRange").value;
+const slider = document.getElementById("myRange");
+/*slider.oninput = () =>{
+    document.getElementById("slider-image").style.left = 
+}*/
