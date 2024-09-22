@@ -1,0 +1,63 @@
+:root{
+    --div-color: #2e3c7e;
+}
+
+body{
+    background-color:var(--div-color);
+}
+
+div{
+    background-color: white;
+}
+
+/*main nav*/
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+  }
+  
+  #main-nav ul {
+    padding-left: 0px;
+    margin: 0;
+  }
+  
+  #main-nav li {
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  #main-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+  }
+  
+  #main-nav a:hover {
+    border-bottom: 1px solid black;
+  }
+
+  #div-header{
+    background-color: var(--div-color);
+  }
+
+/* Log-in */
+
+
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+      flex: 2;
+    }
+    .columns {
+      display: flex;
+    }
+  
+    #toggle-nav {
+      display:none;
+    }
+  
+    .hidden-small {
+      display:flex;
+    }
+  }
