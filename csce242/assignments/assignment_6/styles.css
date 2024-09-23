@@ -1,3 +1,7 @@
+:root{
+    --slider-color: rgb(255, 0, 0);
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: #f0f1e8;
@@ -21,9 +25,24 @@ img{
     margin-right: auto;
 }
 
+section{
+    border: 1px solid #5c868b;
+    align-self: center;
+}
+
 .columns > * {
     background: #f2f0d4;
     border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
 }
 
 .slidecontainer{
@@ -46,60 +65,61 @@ img{
     appearance: none;
     width: 25px; 
     height: 25px; 
-    background: #04AA6D; 
+    background: red; 
     cursor: pointer; 
 }
 
 .slider::-moz-range-thumb {
     width: 25px; 
     height: 25px; 
-    background: #04AA6D; 
+    background: #ff7f7f; 
     cursor: pointer;
 } 
 
-#content{
-    padding: 5px;
-    width: 80%;
-}
 
-#gallery section{
-    width: 80%;
-    padding: 20px;
-}
-
-#gallery h3{
+#ex-one{
+    text-align: center;
     color: #5c868b;
+    cursor: pointer;
+}
+
+#ex-two{
     text-align: center;
+    color: #5c868b;
+    cursor: pointer;
 }
 
-#count{
-    background: #5c868b;
+#clr-slider h3{
+    color: #5c868b;
 }
 
-#count h3{
-    color: white;
+#pic-chooser h3{
+    color: #5c868b;
 }
 
-#count p{
-    color: white;
-    text-align: center;
-    font-size: 50px;
+/* Ex-List */
+.ex-list{
+    list-style-type: none;
+    padding: 0;
 }
 
-#number{
-    color: white;
-    text-align: center;
-    font-size: 50px;
+.ex-list li{
+    display: inline;
 }
 
-#slider-image{
-    color: #d98586;
+.ex-list li::after{
+    content: "|";
+    margin: 0 5px;
+}
+
+.ex-list li:last-child::after{
+    content: "";
 }
 
 @media only screen and (min-width:600px){
     #content{
        width: 70%; 
-       margin: auto;
+       margin:auto;
     }
 
     .columns{

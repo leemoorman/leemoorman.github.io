@@ -14,7 +14,7 @@ document.getElementById("btn-goodbye").onclick = () =>{
     document.getElementById("stuff").classList.add("hide");
 };
 
-ocument.getElementById("btn-animate").onclick = () =>{
+document.getElementById("btn-animate").onclick = () =>{
     document.getElementById("stuff").classList.add("animate");
     document.getElementById("message").innerHTML = "Animated";
 };
