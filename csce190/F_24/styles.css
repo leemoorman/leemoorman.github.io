@@ -43,7 +43,7 @@ p{
 }
 
 .skills{
-    color: black;
+    color: white;
 }
 
 .projects{
@@ -51,7 +51,7 @@ p{
 }
 
 .contact{
-    color: black;
+    color: white;
 }
 
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
