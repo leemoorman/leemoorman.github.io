@@ -1,0 +1,34 @@
+body{
+    background-color: #A3BCBF;
+}
+
+#content{
+    width: 95%;
+    margin: auto;
+    background: #5D7310;
+    border-radius: 5px;
+}
+
+#main-header{
+    background: #B0BF39;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Typography */
+h1{
+    text-align: center;
+}
+
+/* Larger Devices */
+@media only screen and (min-width: 768px){
+    body{
+        background: url(images/tree.jpg);
+        background-size: cover;
+    }
+
+    #content{
+        width: 70%;
+    }
+}

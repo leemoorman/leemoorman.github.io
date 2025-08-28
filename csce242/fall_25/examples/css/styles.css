@@ -1,0 +1,38 @@
+/* Structure */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/foxburrow.jpg);
+    background-size: cover;
+}
+#content{
+    background: #99BF60;
+    width: 70%;
+    margin: auto; /* center */
+    padding: 1%; /* text away from the edge */
+    border-radius: 5px; /* round corners */
+}
+
+/* Tables */
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #574a30;
+    padding: 5px 10px;
+}
+/* images */
+#fox-picture{
+    box-shadow: 7px 7px darkgreen;
+    height: 200px;
+    width: 300px;
+}
+
+/* Typography */
+h1{
+    color: #8C5B30;
+}
+
+h2{
+    color: #BF9A54;
+}

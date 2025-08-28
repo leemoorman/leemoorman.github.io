@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0D0D0D;
+}
+
+div{
+    background: #730217;
+    box-shadow: 15px 15px #40010D;
+    width: 70%;
+    margin: auto; /* center */
+    padding: 1%; /* text away from the edge */
+    border-radius: 5px; /* round corners */
+    color: white;
+}
+
+a{
+    color: white;
+}
