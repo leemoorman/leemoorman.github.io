@@ -3,7 +3,7 @@ body{
     background: #0D0D0D;
 }
 
-div{
+#main-content{
     background: #730217;
     box-shadow: 15px 15px #40010D;
     width: 70%;
@@ -13,6 +13,20 @@ div{
     color: white;
 }
 
+#main-header{
+    text-align: center;
+}
+
+#class-description{
+    text-align: center;
+}
+
+#repo{
+    text-align: center;
+    text-decoration: underline;
+}
+
 a{
     color: white;
+    text-decoration: none;
 }
