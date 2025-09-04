@@ -13,15 +13,7 @@ body{
     color: white;
 }
 
-#main-header{
-    text-align: center;
-}
-
-#assignment-header{
-    text-align: center;
-}
-
-#class-description{
+#main-header, #assignment-header, #class-description{
     text-align: center;
 }
 
@@ -33,6 +25,10 @@ body{
 a{
     color: white;
     text-decoration: none;
+}
+/* Assignment Section */
+#assignment-header{
+    text-align: center;
 }
 
 #assignment-div img{
@@ -47,15 +43,20 @@ a{
     background: #40010D;
 }
 
+/* Footer */
+
 #main-footer{
     text-align: center;
 }
+
+/* Flex */
 
 .columns{
     display: flex;
     flex-wrap: nowrap;
 }
 
+/* Computer Display */
 @media only screen and (min-width: 801px){
     .columns{
         display: flex;
