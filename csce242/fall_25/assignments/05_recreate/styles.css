@@ -1,0 +1,110 @@
+body {
+    background-color: #ffffff; 
+    color: #333;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+/* header */
+#main-header div{
+    background: black;
+    width: 100%;
+    color: white;
+}
+
+
+#main-header ul{
+    list-style: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: left; 
+    gap: 40px;
+}
+
+/* Navbar */ 
+
+nav {
+    background-color: #67000d; /* USC red */ 
+    color: white;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: right; 
+    gap: 40px;
+}
+
+nav ul li { 
+    font-weight: bold;
+}
+
+nav ul li a { 
+    color: #ffffff;
+}
+
+.hero {
+    background-color: #e5e5e5; 
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    color: #67000d; 
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    max-width: 700px; 
+    margin: 0 auto;
+}
+
+/* Sections */ 
+    
+section {
+    padding: 4rem 1rem; max-width: 1200px; margin: 0 auto;
+}
+
+section h2 {
+    color: #67000d; 
+    margin-bottom: 1rem;
+}
+
+section p {
+    margin-bottom: 1rem; 
+}
+
+.section-image { 
+    text-align: center; 
+    margin-top: 2rem;
+}
+
+.section-image img { 
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333333; 
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem; margin-top: 4rem;
+}
+
+footer a {
+    color: #ffffff; 
+    text-decoration: underline;
+}
