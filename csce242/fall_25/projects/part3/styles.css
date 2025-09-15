@@ -14,6 +14,11 @@
     color: white;
     padding-bottom: 1rem;
   }
+
+  .logo a{
+    text-decoration: none;
+    color: white;
+  }
   
   .top-bar {
     display: flex;
@@ -81,6 +86,37 @@
     gap: 2rem;
     flex-wrap: wrap;
   }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    flex-wrap: wrap; /* Makes it responsive */
+  }
+  
+  .about-image img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 25px;
+  }
+  
+  .about-text {
+    max-width: 500px;
+  }
+  
+  .about-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
   
   .item {
     background-color: #d9c0ad;
@@ -114,3 +150,5 @@
     text-align: center;
     padding: 5px;
   }
+
+ 
