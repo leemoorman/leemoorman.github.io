@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Conditionals</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Assignment 6</h1>
+        <h2>If Statements</h2>
+
+        <nav class="main-nav-wide main-nav-small">
+            <ul>
+                <li id="down" class="show">&#9660;</li>
+                <li id="up" class="hide">&#9650;</li>
+                <li id="ex-one" class="small-hide">Exercise 1</li>
+                <li id="barrier">|</li>
+                <li id="ex-two" class="small-hide">Exercise 2</li>
+            </ul>
+        </nav>
+
+        <section id="clock" class="hide">
+            <div>
+                <h3>Our Digital Clock</h3>
+                <ul id="dig-clock">
+                    <li id="hour"></li>
+                    <li>:</li>
+                    <li id="minute"></li>
+                    <li id="ampm"></li>
+                </ul>
+            </div>
+        </section>
+        <section id="planting" class="hide">
+            <p>How many days has it been since watering your plant?</p>
+            <input type="range" id="plant" min="1" max="12" value="1">
+            <div>
+                <img id="healthy" class="hide" src="images/healthyplant.jpg">
+                <img id="watering" class="hide" src="images/plantwatering.png">
+                <img id="wilting" class="hide" src="images/wiltingplant.png">
+                <img id="dead" class="hide" src="images/plantdead.png">
+            </div>
+            <p id="m-one"></p>
+            <p id="m-two"></p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
