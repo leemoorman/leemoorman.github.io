@@ -1,0 +1,80 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #5D878C;
+}
+
+h2{
+    text-align: center;
+    color: #D98484;
+}
+
+#main-header{
+    text-align: center;
+}
+
+#sun{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: yellow;
+    top: 1;
+    right: 0;
+    margin-right: 5rem;
+}
+
+#moon{
+    position: fixed;
+    top: 1;
+    right: 0;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    box-shadow: -15px 15px 0 5px white;
+    border-radius: 50%;
+}
+
+.hide{
+    display: none;
+}
+
+.cloud{
+    height: 75px; 
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: #269af2;
+}
+
+.foliage{
+    position: absolute;
+    top: 0px; /* Adjust position above trunk */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%; /* For a rounded foliage shape */
+}
+
+.trunk{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 60px;
+    background-color: brown;
+}
+
+.tree-container {
+    position: relative;
+    width: 200px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin: 50px auto; /* Center the tree */
+}
