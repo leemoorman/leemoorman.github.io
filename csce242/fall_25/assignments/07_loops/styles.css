@@ -44,17 +44,20 @@ h2{
 }
 
 .cloud{
-    height: 75px; 
+    position: relative;
+    top: 70px;
+    left: 370px;
+    height: 50px; 
     aspect-ratio: 1.8;
     --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
     mask: var(--g) 100% 100%/30% 60%,var(--g) 70% 0/50% 100%,var(--g) 0 100%/36% 68%,var(--g) 27% 18%/26% 40%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
-    background: #269af2;
+    background: white;
 }
 
 .foliage{
-    position: absolute;
-    top: 0px; /* Adjust position above trunk */
-    left: 50%;
+    position: relative;
+    top: 70px; /* Adjust position above trunk */
+    left: 415px;
     transform: translateX(-50%);
     width: 50px;
     height: 50px;
@@ -63,18 +66,15 @@ h2{
 }
 
 .trunk{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+    position: relative;
+    top: 150px;
+    left: 415px;
     transform: translateX(-50%);
     width: 15px;
     height: 60px;
     background-color: brown;
 }
 
-.tree-container {
-    position: relative;
-    width: 200px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-    margin: 50px auto; /* Center the tree */
+#main-content{
+    display: flex;
 }
