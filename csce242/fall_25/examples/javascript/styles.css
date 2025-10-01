@@ -15,7 +15,7 @@ body {
 #content {
     background:white;
     width:70%;
-    margin:auto; /* center */
+    margin: auto; /* center */
     border-radius:5px;
     box-shadow: 10px 10px lightblue;
 }
@@ -29,11 +29,6 @@ header, footer {
 
 header {
     padding-bottom:3px;
-}
-
-header {
-   /* position:fixed;
-    width:70%;*/
 }
 
 main {
@@ -80,19 +75,19 @@ main {
 }
 
 .happy {
-    color:black;
-    background: yellow;
-    border: 2px dotted orange;
+    color:pink;
 }
 
 .sad {
-    color:white;
-    background: navy;
-    border: 2px solid skyblue;
+    color:purple;
 }
 
-.error{
-    color: red;
+.error {
+    color:red;
+}
+
+input {
+    max-width:100%;
 }
 
 .sub-section a {
@@ -110,35 +105,34 @@ main {
 }
 
 /* Animations */
-#ball{
-    margin-top: 10px;
-    background: #2b91ad;
-    height: 50px;
-    width: 50px;
+#ball {
+    margin-top:10px;
+    background:#2B91AD;
+    height:50px;
+    width:50px;
     border-radius: 50px;
-    position: relative;
+    position:relative;
 }
 
-.bounce{
+.bounce {
     animation-name: ball-bounce;
     animation-duration: 2s;
     animation-iteration-count: 5;
 }
 
-@keyframes ball-bounce{
-    0%{top: 0px;}
-    50%{top: 200px;}
-    100%{top : 0px;}
-
+@keyframes ball-bounce {
+    0% {top:0px;}
+    50% {top:200px;}
+    100% {top:0px;}
 }
 
-@keyframes color-change{
-    0% {background: #2b91ad;}
-    20% {background: #FFB58A;}
-    40% {background: pink;}
-    60% {background: limegreen;}
-    80% {background: red;}
-    100% {background: yellow;}
+@keyframes color-change {
+    0% {background:#2B91AD;}
+    20% {background:#FFB58A;}
+    40% {background:pink;}
+    60% {background:green;}
+    80% {background:red;}
+    100% {background:yellow;}
 }
 
 /* Donations */
@@ -246,14 +240,50 @@ footer p {
     text-align:center;
 }
 
+.clicked {
+    background:magenta;
+    color:white;
+}
+
+.happy {
+    background:yellow;
+    color:blak;
+    border:2px dotted orange;
+}
+
+.sad {
+    background:navy;
+    color:white;
+    border:2px solid skyblue;
+}
+
 #map {
     width:100%;
     height:500px;
 }
 
+/* Dogs */
+
+.dog {
+  background-color: dodgerblue;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+  width:40%;
+}
+
+.dog img {
+    max-width:50%;
+}
+
+.transparent {
+    visibility:hidden;
+}
+
 
 /* Medium screens */
-@media only screen and (min-width: 800px) { 
+@media only screen and (min-width: 700px) { 
     .columns {
         display:flex;
     }
@@ -293,6 +323,11 @@ footer p {
         border-radius: 5px;
         margin:5px;
     }
+
+    #dog-list {
+    display: flex;
+  }
+  
 }
 
 
