@@ -8,11 +8,11 @@ const before = [
         image: "images/peggy_before.png"
     },
     {
-        name: "Pheobe",
+        name: "Phoebe",
         image: "images/phoebe_before.png"
     },
     {
-        name: "Mace",
+        name: "Penelope",
         image: "images/penelope_before.png"
     }
 ];
@@ -27,11 +27,11 @@ const after = [
         image: "images/peggy_after.png"
     },
     {
-        name: "Pheobe",
+        name: "Phoebe",
         image: "images/phoebe_after.png"
     },
     {
-        name: "Mace",
+        name: "Penelope",
         image: "images/penelope_after.png"
     }
 ];
@@ -61,7 +61,96 @@ window.onload = () =>{
 }
 
 document.getElementById("scarlett").onclick = () =>{
-    const popup = document.createElement("div");
     const popupContent = document.createElement("div");
-    const scarlett = document.createElement("img");
+    let scarlettImg = document.createElement("img");
+    let desc = document.createElement("p");
+    const close = document.createElement("p");
+    close.innerHTML = `<span id="close">&#10006;</span>`;
+    for(let i = 0; i < after.length; i++){
+        if(after[i].name == "Scarlett"){
+            scarlettImg.src = after[i].image;
+            desc = `Thanks for calling ${after[i].name} a good dog!`;
+        }
+    }
+
+    popupContent.classList.add("popup");
+    document.getElementById("main-content").append(popupContent);
+    popupContent.append(close);
+    popupContent.append(desc);
+    popupContent.append(scarlettImg);
+
+    close.onclick = () =>{
+        popupContent.remove();
+    }
+}
+
+document.getElementById("peggy").onclick = () =>{
+    const popupContent = document.createElement("div");
+    let scarlettImg = document.createElement("img");
+    let desc = document.createElement("p");
+    const close = document.createElement("p");
+    close.innerHTML = `<span id="close">&#10006;</span>`;
+    for(let i = 0; i < after.length; i++){
+        if(after[i].name == "Peggy"){
+            scarlettImg.src = after[i].image;
+            desc = `Thanks for calling ${after[i].name} a good dog!`;
+        }
+    }
+
+    popupContent.classList.add("popup");
+    document.getElementById("main-content").append(popupContent);
+    popupContent.append(close);
+    popupContent.append(desc);
+    popupContent.append(scarlettImg);
+
+    close.onclick = () =>{
+        popupContent.remove();
+    }
+}
+
+document.getElementById("phoebe").onclick = () =>{
+    const popupContent = document.createElement("div");
+    let scarlettImg = document.createElement("img");
+    let desc = document.createElement("p");
+    const close = document.createElement("p");
+    close.innerHTML = `<span id="close">&#10006;</span>`;
+    for(let i = 0; i < after.length; i++){
+        if(after[i].name == "Phoebe"){
+            scarlettImg.src = after[i].image;
+            desc = `Thanks for calling ${after[i].name} a good dog!`;
+        }
+    }
+
+    popupContent.classList.add("popup");
+    document.getElementById("main-content").append(popupContent);
+    popupContent.append(close);
+    popupContent.append(desc);
+    popupContent.append(scarlettImg);
+
+    close.onclick = () =>{
+        popupContent.remove();
+    }
+}
+document.getElementById("penelope").onclick = () =>{
+    const popupContent = document.createElement("div");
+    let scarlettImg = document.createElement("img");
+    let desc = document.createElement("p");
+    const close = document.createElement("p");
+    close.innerHTML = `<span id="close">&#10006;</span>`;
+    for(let i = 0; i < after.length; i++){
+        if(after[i].name == "Penelope"){
+            scarlettImg.src = after[i].image;
+            desc = `Thanks for calling ${after[i].name} a good dog!`;
+        }
+    }
+
+    popupContent.classList.add("popup");
+    document.getElementById("main-content").append(popupContent);
+    popupContent.append(close);
+    popupContent.append(desc);
+    popupContent.append(scarlettImg);
+
+    close.onclick = () =>{
+        popupContent.remove();
+    }
 }
