@@ -119,6 +119,7 @@
     text-align: center;
     flex: 1;
     min-width: 200px;
+    flex-direction: column;
   }
   
   .item img {
@@ -132,6 +133,10 @@
   .item p {
     color: #2c1c0f;
     font-weight: bold;
+  }
+
+  .item a{
+    text-decoration: none;
   }
 
 
