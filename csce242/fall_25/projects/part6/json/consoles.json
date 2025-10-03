@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Sony Playstation 5",
+        "price": "499.99",
+        "stock": 3, 
+        "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback1, adaptive triggers1 and 3D Audio1, and an incredible collection of PlayStation games.",
+        "rating": "4.3",
+        "img": "playstation5.jpg"
+    }
+]
