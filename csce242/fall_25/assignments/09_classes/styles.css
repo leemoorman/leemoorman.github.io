@@ -49,12 +49,6 @@ h2{
     background: #F2F2EB;
 }
 
-#xbutton{
-    
-}
-
-
-
 @media only screen and (min-width: 801px){
     #main-content{
         flex-direction: row;
