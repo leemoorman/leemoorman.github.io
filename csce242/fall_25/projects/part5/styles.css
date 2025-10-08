@@ -50,10 +50,11 @@
 
   .main-nav ul{
     list-style-type: none;
+    font-size: 0.8vw;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15vw;
+    gap: 18vw;
   }
 
   .main-nav li{
