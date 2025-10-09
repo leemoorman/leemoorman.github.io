@@ -1,5 +1,5 @@
 const getConsoles = async() =>{
-    const url = "https://leemoorman.github.io/blob/main/csce242/fall_25/projects/part6/json/consoles.json";
+    const url = "https://leemoorman.github.io/csce242/fall_25/projects/part6/json/consoles.json";
     try{
         const response = await fetch(url);
         return response.json();
@@ -22,7 +22,7 @@ const showConsole = async() =>{
         description.classList.add("product-info");
 
         consoleImg.src = `${console.img}`;
-        p.innerHTML = `<strong>${console.name}</strong><br>${console.price}<br>In Stock: ${console.stock}<br>${console.description}<br>${console.rating}`;
+        p.innerHTML = `<strong>${console.name}</strong><br><strong>Price: </strong> ${console.price}<br><strong>In Stock:</strong> ${console.stock}<br><strong>Review Score:</strong> ${console.rating}<br>${console.description}`;
 
         card.append(consoleImg);
         card.append(description);

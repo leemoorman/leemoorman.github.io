@@ -353,15 +353,20 @@ textarea {
   cursor: pointer;
 }
 
-.sidebar li.active {
+.sidebar .active {
   background-color: #e6f0ff;
   border-left: 3px solid #00006b;
+}
+
+.sidebar :hover{
+  cursor: pointer;
 }
 
 /* Products */
 .products {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   gap: 2rem;
   flex: 1;
 }
@@ -370,14 +375,16 @@ textarea {
   border: 10px solid #00006b;
   border-radius: 25px;
   padding: 1rem;
-  width: 25vw;
-  height: 50vh;
+  width: 90%;
+  height: auto;
+  min-width: 250px;
+  max-width: 350px;
   text-align: center;
 }
 
 .product-card img {
   width: 90%;
-  height: 60%;
+  height: 50%;
   object-fit: contain;
   border-radius: 10px;
   margin-bottom: 1rem;
@@ -386,6 +393,7 @@ textarea {
 .product-info p {
   text-align: left;
   height: fit-content;
+  padding-bottom: 50%;
 }
 
 .hide-small{
@@ -411,5 +419,10 @@ textarea {
 
     .products{
       flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .product-info p{
+      padding: 0;
     }
 }
