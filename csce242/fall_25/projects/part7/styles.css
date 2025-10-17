@@ -1,0 +1,456 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: white;
+  width: 100%;
+}
+
+form{
+  text-align: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background: #00006b;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  border: 1px solid pink;
+  padding: 0.5rem 1rem;
+}
+
+.top-bar input[type="text"] {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.main-nav ul{
+  list-style-type: none;
+  font-size: 1vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 18vw;
+}
+
+.main-nav li{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+#small-main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 1rem; 
+    list-style-type: none;
+}
+
+#hamburger-menu{
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 30px;
+}
+
+/* index/main page */
+#sc{
+  text-align: center;
+}
+
+#store, #events {
+  background: #00006b;
+  color: white;
+  margin: 2rem 0;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+}
+
+#store h2, #events h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+#store h2 span {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.item, .event-items, .store-items, .up-item {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #d9c0ad;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+  flex-direction: column;
+}
+
+.item img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.item p {
+  color: #2c1c0f;
+  font-weight: bold;
+}
+
+.item a{
+  text-decoration: none;
+}
+
+
+/* about us */
+#about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+  flex-wrap: wrap; 
+}
+
+#about-image{
+  display: flex;
+  background: #00006b;
+  border-radius: 25px;
+}
+
+#about-map{
+  width: 75vw;
+  height: 50vh;
+  border: 10px solid #00006b;
+  border-radius: 25px;
+}
+
+
+#about-image img {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 25px;
+  max-width: 500px;
+  
+}
+
+#about-text {
+  max-width: 500px;
+}
+
+#about-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+#about-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* upcoming events */
+.up-content{
+  display: flex;
+  justify-content: center;
+}
+
+.up-event {
+  color: white;
+  margin: 2rem 0;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  justify-content: center;
+}
+
+.up-event-items{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.up-event p{
+  padding: 1rem;
+  color: black;
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.up-item {
+  background-color: #00006b;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  min-width: 200px;
+  max-width: 400px;
+  height: 230px;
+}
+
+.up-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+#sale-text{
+  padding: 2.5rem;
+}
+
+/* footer */
+.bot-bar{
+  background: black;
+  height: 50px;
+}
+
+.bot-bar p{
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Apply Now */
+#an{
+  text-align: center;
+}
+
+.apply-form {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.apply-form form {
+  width: 60%;
+  max-width: 700px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+.form-group input, .form-group textarea {
+  flex: 3;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.form-btn button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #999;
+  background: white;
+}
+
+/* Shopping Cart */
+#shop-head{
+  text-align: center;
+}
+
+.sc-item {
+  background-color: #00006b;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+}
+
+.sc-item img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.sc-item p {
+  color: white;
+  font-weight: bold;
+}
+
+#sc-store{
+  color: white;
+  margin: 2rem 0;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+}
+
+/* BuyList */
+.store-container {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.sidebar {
+  width: 200px;
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+}
+
+.sidebar h3 {
+  margin: 1rem 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.sidebar .active {
+  background-color: #e6f0ff;
+  border-left: 3px solid #00006b;
+}
+
+.sidebar :hover{
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  flex: 1;
+}
+
+.product-card {
+  border: 10px solid #00006b;
+  border-radius: 25px;
+  padding: 1rem;
+  width: 90%;
+  height: auto;
+  min-width: 250px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 90%;
+  height: 50%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-info p {
+  text-align: left;
+  height: fit-content;
+  padding-bottom: 50%;
+}
+
+/* Contact Us */
+#contact{
+  text-align: center;
+}
+
+#contact-result{
+  margin-top: 1rem;
+}
+
+.hide-small{
+  display: none;
+}
+
+.hide{
+  display: none;
+}
+
+@media only screen and (min-width: 813px){
+    .hide-small{
+        display: block;
+    }
+
+    #hamburger-menu{
+      display: none;
+    }
+
+    #small-main-nav{
+      display: none;
+    }
+
+    .products{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .product-info p{
+      padding: 0;
+    }
+
+    #about-map{
+      width: 35vw;
+      height: 50vh;
+      border: 10px solid #00006b;
+      border-radius: 25px;
+    }
+}

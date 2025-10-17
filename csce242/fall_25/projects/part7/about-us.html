@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <header>
+            <div class="top-bar">
+                <div class="logo"><a href="index.html">COLUMBIA GAME HUB</a></div>
+                <input type="text" placeholder="Search">
+            </div>
+            <a href="#" id="hamburger-menu">&#9776;</a>
+            <div id="small-main-nav" class="hide">
+                <a href="buy-list.html"><li>BuyList</li></a>
+                <a href="upcoming-events.html"><li>Upcoming Events</li></a>
+                <a href="about-us.html"><li>About Us</li></a>
+                <a href="apply-now.html"><li>Apply Now</li></a>
+                <a href="shopping-cart.html"><li>Shopping Cart</li></a>
+            </div>
+            <nav class="main-nav hide-small">
+                <ul>
+                    <a href="buy-list.html"><li>BuyList</li></a>
+                    <a href="upcoming-events.html"><li>Upcoming Events</li></a>
+                    <a href="about-us.html"><li>About Us</li></a>
+                    <a href="apply-now.html"><li>Apply Now</li></a>
+                    <a href="shopping-cart.html"><li>Shopping Cart</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about-section">
+                <div>
+                    <iframe id="about-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.50404670171!2d-81.02955833263864!3d33.986810166674154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad937c8c921%3A0x1cc15ab4349601a4!2s123%20Main%20St%2C%20Columbia%2C%20SC%2029201!5e0!3m2!1sen!2sus!4v1760682768959!5m2!1sen!2sus"></iframe>
+                </div>
+                <div id="about-text">
+                    <h2>About Us</h2>
+                    <p>We are Columbia Game Store, your local destination for everything to do with games! Located in the heart of Columbia, South Carolina, we’re passionate about bringing people together through consoles, games, and community events. Whether you’re hunting for the latest releases, shopping for retro classics, or just stopping by to connect with fellow players, our store has something for everyone.</p>
+                    <p><strong>Location:</strong> 123 Main Street</p>
+                </div>
+            </section>
+            <section id="about-section">
+                <div id="about-image">
+                    <img src="images/founder.png" alt="Owner">
+                </div>
+                <div id="about-text">
+                    <h2>About the Owner</h2>
+                    <p><strong>Jonathan Mulanies</strong></p>
+                    <p>The Columbia Game Hub was founded by a passionate visionary dedicated to bringing gamers together in Columbia, SC. With a sharp eye for community and innovation, he created a space where players of all backgrounds can connect, compete, and celebrate gaming culture. His commitment to fostering creativity and collaboration has made the hub a cornerstone for local gaming enthusiasts and a welcoming home for both casual players and serious competitors.</p>
+                </div>
+            </section>
+            <section id="about-section">
+                <h1>Contact Us</h1>
+            </section>
+            <section class="apply-form">
+                <form method="POST" action="https://api.web3forms.com/submit" id="contact-form">
+                    <input type="hidden" name="access_key" value="3a04b4cb-804a-4eb8-9957-d6497683f115">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Please enter" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Please enter" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="8" placeholder="Please enter" required></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <div class="form-btn">
+                            <button type="submit">Submit</button>
+                    </div>
+                    <div id="contact-result"></div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="bot-bar"> 
+                <p>&copy; Columbia Game Hub</p>
+            </div>
+        </footer>
+        <script src="javascript/nav-script.js"></script>
+        <script src="javascript/contact.js"></script>
+    </body>
+</html>
